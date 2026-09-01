@@ -4,7 +4,7 @@ from rapidfuzz import process, fuzz
 
 # --- AYARLAR ---
 # Buraya Google Sheet CSV linkinizi tekrar yapıştırın
-SHEET_URL = "BURAYA_GOOGLE_SHEET_CSV_LINKINI_YAPISTIRIN"
+SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRh9iyaNHEK4PDuMMQoIzdzh15RvWxfcKXOHEHFysvq-S6Ndw_LvjIvbwfZe9hUk-mSyj66F36You7i/pub?output=csv"
 AMORTISMAN_SINIRI = 12000
 
 st.set_page_config(page_title="pladis Karar Destek", page_icon="🛡️", layout="centered")
